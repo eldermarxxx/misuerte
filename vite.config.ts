@@ -21,8 +21,8 @@ export default defineConfig(({ mode }) => {
 
     // 🔑 Variáveis de ambiente
     define: {
-      'process.env.API_KEY': JSON.stringify(env.GEMINI_API_KEY),
-      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      'process.env.API_KEY': JSON.stringify(env.VITE_GOOGLE_API_KEY),
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.VITE_GOOGLE_API_KEY),
     },
 
     // 🧠 Alias de import
